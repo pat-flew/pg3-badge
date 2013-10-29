@@ -1,0 +1,18 @@
+<plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
+    id="com.pflew.pg3badgeplugin"
+    version="0.1.0">
+    <name>Badge plugin</name>   
+    <!-- ios -->
+    <platform name="ios">    
+        <config-file target="config.xml" parent="/*">
+            <feature name="Badge">
+                <param name="ios-package" value="Badge" /> 
+            </feature>
+        </config-file>
+        <js-module src="www/Badge.js" name="Badge">
+            <clobbers target="Badge" />
+        </js-module>
+        <header-file src="src/ios/Badge.h" />
+            <source-file src="src/ios/Badge.m" />
+    </platform>
+</plugin>
