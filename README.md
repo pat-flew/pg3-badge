@@ -1,3 +1,3 @@
-# Phonegap 3 IOS Badge plugin
+# Phonegap 3 IOS badge plugin
 
 Update badges in Phonegap 3.
