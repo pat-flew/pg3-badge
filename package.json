@@ -1,0 +1,19 @@
+{
+  "name": "pg3-badge",
+  "version": "1.0.0",
+  "description": "Update badges in Phonegap 3.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pat-flew/pg3-badge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pat-flew/pg3-badge/issues"
+  },
+  "homepage": "https://github.com/pat-flew/pg3-badge#readme"
+}
